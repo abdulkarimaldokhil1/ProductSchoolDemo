@@ -1,19 +1,18 @@
 # The Prototype Bet
 
 ## What I Built
-<!-- One sentence: what does this prototype demonstrate? -->
+A prototype that demonstrates how AI can analyze government travel requirements and recommend the most suitable, policy-compliant flight options.
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
-
+https://lovable.dev/projects/f4ba4f9e-cf25-4d93-ba18-caae46089776?magic_link=mc_fdeb3796-33cc-4ef1-89c6-73f29f7224ed
 ## AI Value Archetype
-<!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
+Copilot
 
 ## The Bet in One Sentence
-<!-- What you're building, for whom, why now -->
+We are building an AI-powered government travel assistant for government employees and travel coordinators to identify the best compliant travel option faster, reduce manual effort, and improve spending efficiency.
 
 ## Kill Criteria
-<!-- When would you stop? What evidence would kill this bet? -->
+We would stop or reconsider the bet if the AI recommendations are not sufficiently accurate or compliant, do not meaningfully reduce the time required to select a flight, or fail to achieve adoption and trust among government travel users.

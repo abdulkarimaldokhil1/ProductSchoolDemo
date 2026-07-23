@@ -15,18 +15,24 @@
 ### Correction Loop - 3/5
 **What you capture today:**
 **How it compounds:**
+User corrections and feedback are captured through surveys, support tickets, user research, and operational channels. These inputs inform product improvements, but corrections do not yet automatically retrain or continuously improve the AI model.
 
 ### Preference Loop - 3/5
 **What you capture today:**
 **How it compounds:**
+The platform captures useful behavioral and travel data, including recurring destinations, booking history, eligible travel class, preferred carriers, and trip patterns. However, this data is not yet fully used to deliver deeply personalized recommendations or booking experiences.
 
 ### Domain Context Loop - 4/5
 **What you capture today:**
 **How it compounds:**
+The AI can be grounded in proprietary government travel data, including entitlement rules, approval chains, framework agreements, carrier integrations, ticketing records, after-sales transactions, and financial settlements. This domain corpus is highly specialized and difficult for competitors to access or replicate.
+
 
 ### Network Loop - 3/5
 **What you capture today:**
 **How it compounds:**
+Usage across government entities, travelers, and carriers generates shared intelligence that can improve search ranking, demand forecasting, policy compliance, anomaly detection, and carrier performance for all participants. However, these network effects are not yet fully automated or reflected in real time.
+
 
 **Total Flywheel Score: 13/20**
 **Weakest Loop:*Corrections Loop - Preferences Loop - Network Loop *

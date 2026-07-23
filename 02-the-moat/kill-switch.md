@@ -4,10 +4,10 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H  |
-| **Abstraction** |  H |
-| **Routing** |  M  |
-| **Eval** |  M | |
+| **Provider** | Single AI provider with direct API integration| H |  Document all provider dependencies and identify a backup provider.|
+| **Abstraction** | No abstraction layer; provider-specific implementation|  H |Design a provider-agnostic AI interface for future integrations.|
+| **Routing** |  Single-provider routing with no failover| M | Prototype routing logic to support multiple AI providers.|
+| **Eval** | Manual evaluation of AI outputs with no standardized benchmark|  M |Define evaluation metrics and create a baseline test dataset. |
 
 ## Portability Score
 Partial

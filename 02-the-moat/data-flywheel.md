@@ -46,22 +46,34 @@ The biggest opportunities for improvement are to transform user feedback and beh
 
 ### 1. Platform Encroachment
 **Attacker:**
+Microsoft Copilot
 **Vector:**
+AI-native search, booking assistance, workflow automation, and support
 **Time-to-threat:**
+1–3 months
 **% of value at risk:**
+20–30%
 
 ### 2. Vertical Competitor
 **Attacker:**
+Flyakeed Business
 **Vector:**
+Vector: End-to-end government travel management with deeper travel operations and supplier connectivity
+
 **Time-to-threat:**
+6–12 months
 **% of value at risk:**
+40–50%
 
 ### 3. Adjacent Expansion
 **Attacker:**
+Almosafer
 **Vector:**
+Extending booking and carrier capabilities into government approvals, servicing, and financial claims
 **Time-to-threat:**
+6–12 months
 **% of value at risk:**
-
+30–40%
 ---
 
 ## 90-Day Encroachment Plan

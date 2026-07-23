@@ -20,7 +20,7 @@ Rationale: Deep integration with government travel workflows, approvals, policie
 
 
 **Named attacker (from partner challenge):**
-Named attacker: A government-wide travel management platform with direct carrier integrations.
+Named attacker: A government-wide travel management platform with direct carrier integrations (Travelport)
 
 ---
 
@@ -44,7 +44,7 @@ Rationale: Core regulatory workflows and integrations are difficult to replicate
 
 
 **Named attacker (from partner challenge):**
-Named attacker: OpenAI, Google, or a global travel platform offering AI-enabled booking and workflow automation.
+Named attacker: OpenAI, Google, or a global travel platform offering AI-enabled booking and workflow automation. (Booking.com)
 
 ---
 

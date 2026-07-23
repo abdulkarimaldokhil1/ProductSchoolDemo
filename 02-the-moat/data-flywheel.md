@@ -35,8 +35,10 @@ Usage across government entities, travelers, and carriers generates shared intel
 
 
 **Total Flywheel Score: 13/20**
-**Weakest Loop:*Corrections Loop - Preferences Loop - Network Loop *
+**Weakest Loop:**
+Corrections Loop - Preferences Loop - Network Loop 
 **Fix for weakest loop:**
+The biggest opportunities for improvement are to transform user feedback and behavior from data that is analyzed periodically into machine learning loops that continuously improve recommendations, decisions, and outputs.
 
 ---
 

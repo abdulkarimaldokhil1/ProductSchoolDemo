@@ -4,16 +4,16 @@
 
 | Dimension | Current State | Risk Level | 48-Hour Action |
 |-----------|--------------|------------|---------------|
-| **Provider** | | H / M / L | |
-| **Abstraction** | | H / M / L | |
-| **Routing** | | H / M / L | |
-| **Eval** | | H / M / L | |
+| **Provider** | | H  |
+| **Abstraction** |  H |
+| **Routing** |  M  |
+| **Eval** |  M | |
 
 ## Portability Score
-<!-- Ready / Partial / Locked -->
+Partial
 
 ## If [primary vendor] doubles pricing tomorrow:
-<!-- What's your 48-hour response? -->
+Core Government Travel services remain operational, but AI-powered capabilities (feedback analysis, intelligent search, summarization, recommendations) would become significantly more expensive. We would reduce non-critical AI usage while evaluating an alternative provider.
 
 ## If [primary vendor] ships a competing product:
-<!-- What's defensible that they can't replicate? -->
+The AI experience could be replicated, but our competitive advantage remains in government-specific workflows, entitlement policies, approval chains, framework agreements, financial settlement, and proprietary government travel data.

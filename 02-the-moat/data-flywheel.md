@@ -28,8 +28,8 @@
 **What you capture today:**
 **How it compounds:**
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
+**Total Flywheel Score: 13/20**
+**Weakest Loop:*Corrections Loop - Preferences Loop - Network Loop *
 **Fix for weakest loop:**
 
 ---

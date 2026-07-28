@@ -16,14 +16,6 @@ Add-on, because the expected usage is below 70% and the feature has high inferen
 
 ## Cost Model
 
-| Cost Category | Per-User/Month | Notes |
-|--------------|----------------|-------|
-| Inference (primary model) | $1.00 | Complex travel recommendations, policy validation, fare comparison, and exception handling. |
-| Inference (cascading/triage) | $0.20 | Classification, routing, summaries, FAQs, and low-complexity requests handled by a smaller model. |
-| Infrastructure | $0.20 |  API gateway, monitoring, security, integrations, and model orchestration.|
-| Data/storage |  $0.10| Logs, embeddings, travel-policy knowledge base, and conversation storage. |
-| Human-in-the-loop |  $0.10|  Limited review of exceptional, sensitive, or low-confidence cases.|
-| **Total AI COGS** | $1.60|  Based on 80 AI requests per user per month at a blended cost of $0.02 per request. |
 
 | Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted Cost |
 |---------|------------|------------|---------:|---------:|--------------:|

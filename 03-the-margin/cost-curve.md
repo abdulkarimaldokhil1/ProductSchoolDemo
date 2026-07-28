@@ -44,9 +44,9 @@ Hybrid — seat-based for standard AI capabilities and usage-based for high-cost
 
 | Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
-| Inference costs 3x | | |
-| Heaviest segment doubles | | |
-| Model provider raises prices 50% | | |
+| Inference costs 3x | Gross margin decreases from 46% to 38%. AI COGS increases from $1.60 to $4.80 per user/month. | Increase model cascading, route simple requests to lower-cost models, optimize prompts and token usage, and reserve the frontier model for complex cases. |
+| Heaviest segment doubles | Gross margin decreases from 46% to 42%. AI COGS increases to $3.20 per heavy user/month. | Introduce usage limits and monitoring, apply usage-based controls for high-cost workflows, and separate heavy AI features from the standard service. |
+| Model provider raises prices 50% | AI COGS increases from $1.60 to $2.40, reducing gross margin from 46% to approximately 44%. | Use a multi-model strategy, negotiate enterprise pricing, reduce provider dependency, and prepare a fallback model that can be activated if prices increase. |
 
 ## Board One-Pager
 <!-- Before/After: Old SaaS revenue vs. AI usage revenue for your product -->

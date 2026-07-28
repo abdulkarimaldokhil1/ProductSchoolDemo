@@ -55,12 +55,30 @@ Simple, repetitive, and low-risk requests are routed to the triage model. Reques
 
 ## Pricing Model
 
-**Current pricing:**
-$40 per user/month, used as an internal value or funding proxy for the AI-enabled ERCAB service.
-**Proposed AI pricing:**
-Core AI capabilities should remain included in the standard service with reasonable usage limits. High-cost capabilities, such as autonomous booking, continuous fare monitoring, and complex agentic workflows, should be controlled through quotas or usage-based charging.
-**Model:** seat-based / usage-based / outcome-based / hybrid
-Hybrid — seat-based for standard AI capabilities and usage-based for high-cost workflows.
+Current pricing:
+
+N/A – The AI capability is not currently priced as a standalone service.
+
+Proposed AI pricing:
+
+**Strategy posture:**
+Penetration
+**Pricing model:**
+Hybrid — subscription plus usage-based pricing
+**Unit of work metered:**
+Government travel request completed
+**Base fee ($/user/month):**
+ $10
+**Price per unit:**
+$20
+**Estimated units/user/month:**
+1
+**Implied revenue/user/month:**
+$30.00
+
+
+Decision Note — Why this pricing structure fits the buyer and the value delivered:
+The base fee provides predictable access to standard AI capabilities, while usage-based pricing aligns revenue with actual consumption. At an estimated 80 AI requests per user per month, the model generates approximately $40 per user while protecting margins as usage increases.
 
 ## Stress Tests
 

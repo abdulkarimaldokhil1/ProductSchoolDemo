@@ -1,9 +1,12 @@
 # Cost Curve & Pricing Strategy
 
-leader :
-Filler :
-Killer
-Killer usage :
+**leader :**
+
+**Filler :**
+
+**Killer:**
+
+**Killer usage :**
 
 ## Cost Model
 

@@ -1,5 +1,10 @@
 # Cost Curve & Pricing Strategy
 
+leader :
+Filler :
+Killer
+Killer usage :
+
 ## Cost Model
 
 | Cost Category | Per-User/Month | Notes |

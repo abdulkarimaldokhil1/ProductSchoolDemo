@@ -26,8 +26,6 @@ Add-on, because the expected usage is below 70% and the feature has high inferen
 
 
 ## Cascading Strategy
-<!-- Cheap model → frontier model routing logic -->
-## Cascading Strategy
 
 **Triage model:** Claude Haiku 4.5  
 **Mid-tier model:** Claude Sonnet 5  

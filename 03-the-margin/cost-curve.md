@@ -92,25 +92,32 @@ The base fee provides predictable access to standard AI capabilities, while usag
 | Heaviest user segment doubles its usage | Margin decreases from **46% to 42%** | Introduce tiered pricing, usage limits, or additional charges for high-volume users |
 | Model provider increases prices by 50% | Margin decreases to approximately **44%** | Use a multi-model strategy, negotiate enterprise pricing, and maintain fallback providers |
 
+
 ## Board One-Pager
 
-### BEFORE — Traditional SaaS
+### BEFORE — Traditional Service
 
-- Revenue: **$40/user/month**
+- Revenue: **$30 per user/month**
 - COGS: **$20.00 (fixed)**
-- Gross margin: **50%**
+- Gross profit: **$10.00 per user/month**
+- Gross margin: **33.3%**
 
-### AFTER — AI-Powered
+### AFTER — AI-Powered Service
 
-- Revenue: **$20 base fee + ($0.25 × 80 requests) = $40/user/month**
-- COGS: **$21.60 (variable)**
-- Gross margin: **46%**
+- Revenue: **$20 base fee + ($0.25 × 80 completed government travel requests)**
+- Total revenue: **$40.00 per user/month**
+- Non-AI COGS: **$20.00**
+- AI COGS: **$1.60**
+- Total COGS: **$21.60 (variable)**
+- Gross profit: **$18.40 per user/month**
+- Gross margin: **46.0%**
 
 ### NET MARGIN SHIFT
 
-- Δ Margin: **-4 percentage points**
-- Δ Gross Profit: **-$1.60 per user/month**
+- Δ Margin: **+12.7 percentage points**
+- Δ Gross Profit: **+$8.40 per user/month**
+- Revenue uplift: **+$10.00 per user/month (+33.3%)**
 
 **Narrative:**  
-AI introduces variable inference costs, reducing gross margin from **50%** to **46%**. However, the hybrid pricing model, combined with model cascading and usage controls, keeps margins healthy while enabling scalable AI capabilities.
+The AI-powered service increases revenue by enabling hybrid, usage-based pricing tied to completed government travel requests. Although AI introduces an additional variable cost of **$1.60 per user/month**, the incremental revenue exceeds the added cost. As a result, gross profit increases from **$10.00 to $18.40**, while gross margin improves from **33.3% to 46.0%**. Model cascading and usage controls provide additional protection as adoption grows.
 

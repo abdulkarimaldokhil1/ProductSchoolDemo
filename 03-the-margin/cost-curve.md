@@ -89,6 +89,26 @@ The base fee provides predictable access to standard AI capabilities, while usag
 ## Stress Tests
 
 | Scenario | Impact on Margin | Response |
+|---|---|---|
+| Inference costs increase 3× | Margin decreases from **46% to 38%** | Increase model cascading, optimize prompts, and route simple requests to lower-cost models |
+| Heaviest user segment doubles its usage | Margin decreases from **46% to 42%** | Introduce tiered pricing, usage limits, or additional charges for high-volume users |
+| Model provider increases prices by 50% | Margin decreases to approximately **44%** | Use a multi-model strategy, negotiate enterprise pricing, and maintain fallback providers |
+
+## Board One-Pager
+
+**Before — Traditional service:**  
+No standalone AI pricing and limited ability to monetize usage.
+
+**After — AI-enabled service:**  
+Hybrid pricing of **$20 base fee + $0.25 per government travel request**, producing approximately **$40 in revenue per user/month**.
+
+**Net margin shift:**  
+The expected gross margin is approximately **46%**, with model cascading and usage controls protecting profitability under higher-cost scenarios.
+
+
+## Stress Tests
+
+| Scenario | Impact on Margin | Response |
 |----------|-----------------|----------|
 | Inference costs 3x | Gross margin decreases from 46% to 38%. AI COGS increases from $1.60 to $4.80 per user/month. | Increase model cascading, route simple requests to lower-cost models, optimize prompts and token usage, and reserve the frontier model for complex cases. |
 | Heaviest segment doubles | Gross margin decreases from 46% to 42%. AI COGS increases to $3.20 per heavy user/month. | Introduce usage limits and monitoring, apply usage-based controls for high-cost workflows, and separate heavy AI features from the standard service. |

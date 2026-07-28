@@ -25,8 +25,32 @@ Add-on, because the expected usage is below 70% and the feature has high inferen
 | Human-in-the-loop |  $0.10|  Limited review of exceptional, sensitive, or low-confidence cases.|
 | **Total AI COGS** | $1.60|  Based on 80 AI requests per user per month at a blended cost of $0.02 per request. |
 
+| Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted Cost |
+|---------|------------|------------|---------:|---------:|--------------:|
+| Travel FAQs, summaries, and notifications | Low | Claude Haiku 4.5 | **$0.009** | **40%** | **$0.0036** |
+| Travel-policy and eligibility validation | Medium | Claude Sonnet 5 | **$0.018** | **35%** | **$0.0063** |
+| Multi-carrier recommendations and exception handling | Complex | Claude Opus 5 | **$0.045** | **25%** | **$0.0113** |
+| **Blended** |  |  |  | **100%** | **$0.0212 ≈ $0.02** |
+
+
 ## Cascading Strategy
 <!-- Cheap model → frontier model routing logic -->
+## Cascading Strategy
+
+**Triage model:** Claude Haiku 4.5  
+**Mid-tier model:** Claude Sonnet 5  
+**Frontier model:** Claude Opus 5  
+
+**Routing rule:**  
+Route simple and repetitive requests (FAQs, summaries, translations, and notifications) to Claude Haiku 4.5. Route policy validation and eligibility checks to Claude Sonnet 5. Route complex travel recommendations, multi-carrier comparisons, exceptional cases, and multi-step reasoning to Claude Opus 5.
+
+**Expected cascade ratio:** **40% / 35% / 25%**
+
+- **40%** → Claude Haiku 4.5 (Low complexity)
+- **35%** → Claude Sonnet 5 (Medium complexity)
+- **25%** → Claude Opus 5 (High complexity)
+
+**Blended cost per request:** **≈ $0.021 ($0.02)**
 
 **Triage model:**
 A small, cost-efficient language model for request classification, intent detection, FAQs, summaries, translations, and simple travel queries.

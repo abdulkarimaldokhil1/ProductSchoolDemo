@@ -94,12 +94,23 @@ The base fee provides predictable access to standard AI capabilities, while usag
 
 ## Board One-Pager
 
-**Before — Traditional service:**  
-No standalone AI pricing and limited ability to monetize usage.
+### BEFORE — Traditional SaaS
 
-**After — AI-enabled service:**  
-Hybrid pricing of **$20 base fee + $0.25 per government travel request**, producing approximately **$40 in revenue per user/month**.
+- Revenue: **$40/user/month**
+- COGS: **$20.00 (fixed)**
+- Gross margin: **50%**
 
-**Net margin shift:**  
-The expected gross margin is approximately **46%**, with model cascading and usage controls protecting profitability under higher-cost scenarios.
+### AFTER — AI-Powered
+
+- Revenue: **$20 base fee + ($0.25 × 80 requests) = $40/user/month**
+- COGS: **$21.60 (variable)**
+- Gross margin: **46%**
+
+### NET MARGIN SHIFT
+
+- Δ Margin: **-4 percentage points**
+- Δ Gross Profit: **-$1.60 per user/month**
+
+**Narrative:**  
+AI introduces variable inference costs, reducing gross margin from **50%** to **46%**. However, the hybrid pricing model, combined with model cascading and usage controls, keeps margins healthy while enabling scalable AI capabilities.
 

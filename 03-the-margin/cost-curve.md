@@ -63,16 +63,22 @@ Proposed AI pricing:
 
 **Strategy posture:**
 Penetration
+
 **Pricing model:**
 Hybrid — subscription plus usage-based pricing
+
 **Unit of work metered:**
 Government travel request completed
+
 **Base fee ($/user/month):**
  $10
+ 
 **Price per unit:**
 $20
+
 **Estimated units/user/month:**
 1
+
 **Implied revenue/user/month:**
 $30.00
 

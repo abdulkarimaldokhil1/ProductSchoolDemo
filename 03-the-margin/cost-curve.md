@@ -1,12 +1,18 @@
 # Cost Curve & Pricing Strategy
 
 **leader :**
+AI-powered, policy-compliant travel recommendations that help users select the most suitable flight based on eligibility rules, framework agreements, fare limits, and traveler needs.
 
 **Filler :**
-
+AI-generated summaries, translations, smart notifications, and simple travel insights that improve the user experience at a low additional cost.
 **Killer:**
+Autonomous booking, continuous fare monitoring, automatic rebooking, and complex agentic workflows across multiple carriers and government systems.
 
 **Killer usage :**
+Approximately 20–30% of users.
+
+**Bundle or add-on:**
+Add-on, because the expected usage is below 70% and the feature has high inference and integration costs.
 
 ## Cost Model
 

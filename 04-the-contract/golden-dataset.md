@@ -20,6 +20,8 @@ Dataset health
 **Adversarial rows included:** Strong
 
 **Coverage gaps identified by partner:**
+ Aim for at least 20% edge cases and at least 3 adversarial rows. Your golden dataset is only as good as its hardest examples.
+
 
 ## Confidence UX Design
 

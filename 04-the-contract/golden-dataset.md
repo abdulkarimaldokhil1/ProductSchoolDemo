@@ -55,8 +55,35 @@ Do not generate or submit the travel request. Explain why confidence is low, ide
 | Latency (p95) | | | |
 | Drift velocity | | | |
 
+# Reliability Contract
+
+| Metric | Target | Measurement | Alert Threshold |
+|---|---:|---|---:|
+| Accuracy | 93% | Weekly evaluation using a golden dataset of 300 government travel scenarios, scored using an LLM-as-Judge rubric with manual review of selected samples. | <90% |
+| Hallucination rate | <1% | Weekly evaluation of fabricated policies, eligibility rules, travel restrictions, carrier information, and unsupported recommendations. | >2% |
+| Latency (p95) | <3 seconds | Monitor the 95th percentile end-to-end response time across all supported channels. | >5 seconds |
+| Drift velocity | <3% monthly | Compare weekly model outputs against the approved golden dataset and monitor changes in accuracy, policy compliance, and response behavior. | >5% monthly |
+
 ## HITL Architecture
-<!-- When does a human step in? What's the escalation path? -->
+# HITL (Human-in-the-Loop) Architecture
+
+### Trigger – When does a human enter the loop?
+
+A human reviewer is required when:
+- AI confidence falls below 70%.
+- Government travel policies cannot be verified.
+- Required traveler information is missing or ambiguous.
+- The request involves exceptions, VIP travelers, or special medical assistance.
+- A security or privacy policy is triggered.
+
+### Reviewer – Who reviews?
+Government Travel Support Team or an authorized Government Travel Officer during business hours, with escalation to the Product Owner for policy-related exceptions.
+
+
+### Feedback Loop – Do corrections feed back into the gold set / model?
+Yes. Reviewer corrections are captured weekly and incorporated into the golden dataset. Repeated issues trigger prompt improvements, rule updates, and periodic model evaluation to continuously improve accuracy and policy compliance.
+
+
 
 ## Red-Team Findings
 *What failure mode did your partner find that you missed?*

@@ -2,15 +2,6 @@
 
 ## Golden Dataset Spec
 
-| # | Input | Expected Output | Edge Case? | Judge Type |
-|---|-------|----------------|-----------|-----------|
-| 1 | | | Y/N | rule / LLM |
-| 2 | | | Y/N | rule / LLM |
-| 3 | | | Y/N | rule / LLM |
-| 4 | | | Y/N | rule / LLM |
-| 5 | | | Y/N | rule / LLM |
-
-Golden Dataset, Module 4
 
 | # | Input | Expected Output | Edge Case? | Judge Type |
 |---:|---|---|:---:|:---:|
@@ -26,7 +17,8 @@ Dataset health
 - Judge mix: 40% rule / 0% LLM / 60% both
 
 
-**Adversarial rows included:** __
+**Adversarial rows included:** Strong
+
 **Coverage gaps identified by partner:**
 
 ## Confidence UX Design

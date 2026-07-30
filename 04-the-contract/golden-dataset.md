@@ -25,11 +25,24 @@ Dataset health
 
 ## Confidence UX Design
 
-**Approach:** show uncertainty / tiered confidence / human-in-loop trigger
+**Approach:** Show uncertainty / tiered confidence / human-in-the-loop trigger
 
-**High confidence (>90%):**
-**Medium confidence (70-90%):**
-**Low confidence (<70%):**
+**High confidence (>90%):**  
+Provide the complete recommendation or draft travel request, explain why it was selected based on policy, traveler eligibility, and the framework agreement, and allow the user to review and confirm it before submission.
+
+**Medium confidence (70–90%):**  
+Clearly state the missing or ambiguous information, explain any assumptions, and ask the user clarifying questions before generating or submitting the travel request.
+
+**Low confidence (<70%):**  
+Do not generate or submit the travel request. Explain why confidence is low, identify the missing information, and route the request to a human agent when necessary.
+
+**User control surface:**
+- Users can adjust the confidence threshold.
+- Users can view the AI's reasoning and decision drivers.
+- Users can review, correct, and override AI-generated outputs.
+- Users must confirm requests before they are created, modified, cancelled, or submitted.
+- User corrections are captured to improve the model and the golden dataset.
+
 
 **User control surface:**
 

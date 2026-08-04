@@ -1,6 +1,8 @@
 # Compounding System Design
 
 
+
+
 ## Feedback Loops
 
 | Loop | Input | Output | Compounds? | Status |
@@ -19,20 +21,6 @@
 
 **Where it silos:** Carrier performance insights, traveler behavior, and support feedback are not yet consolidated into a shared AI knowledge layer. Learning remains distributed across teams instead of continuously improving the entire platform.
 
-
-## Feedback Loops
-
-| Loop | Input | Output | Compounds? | Status |
-|------|-------|--------|-----------|--------|
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
-
-**Broken loop identified by partner:**
-**Fix plan:**
-
-## Context Connectivity
-<!-- How does knowledge flow across teams and domains? Where does it silo? -->
 
 ## Governance Policy
 

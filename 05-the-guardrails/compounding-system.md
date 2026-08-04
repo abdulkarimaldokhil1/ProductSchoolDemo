@@ -24,14 +24,32 @@
 
 ## Governance Policy
 
-**Scope:**
-**Autonomy boundaries:**
-**Escalation triggers:**
-**Audit cadence:**
-**Regulatory exposure (EU AI Act / other):**
+## Governance Policy
+
+**Scope:** AI capabilities used within the ERCAB platform for government travel request creation, booking recommendations, policy validation, traveler assistance, and customer support. Excludes: Internal analytics, development tools, offline reporting, and third-party AI systems that operate outside the ERCAB platform.
+
+**Autonomy boundaries:** Generate government travel request draft, auto. Recommend available flights based on policy, auto. Approve or reject travel requests, human approval required. Cancel or refund issued tickets, human approval required. Modify travel policy or financial rules, never auto.
+
+**Escalation triggers:** Travel request violates government travel policy or approval rules. User requests ticket cancellation, refund, or policy exception. AI confidence score falls below the defined threshold. Financial claim or payment validation fails. User requests to speak with a human agent. Multiple failed booking attempts for the same request. Missing or inconsistent traveler or government entity information.
+
+**Audit cadence:** Real-time, AI errors, failed bookings, policy violations, confidence alerts (Operations Team). Weekly, User feedback, AI recommendations, model quality, support cases (Product Manager). Monthly, Governance compliance, AI performance, security and audit reports (AI Governance Lead).
+
+**Regulatory exposure (EU AI Act / other):** Saudi Personal Data Protection Law (PDPL), National Cybersecurity Authority (NCA) Essential Cybersecurity Controls (ECC), Digital Government Authority (DGA) regulations, and internal government travel policies.. Risk tier: limited. Controls: Personal data masking where applicable, role-based access control (RBAC), audit logging, human approval for high-impact decisions, encrypted data transmission, policy validation before recommendations, and continuous monitoring of AI performance..
 
 ## Agent Topology
-<!-- If using agents: what can each agent do? What can't it do? Who approves what? -->
+
+Travel Request Agent – Can create and validate government travel request drafts. Cannot approve or submit requests. Approval owner: Government employee.
+
+Flight Recommendation Agent – Can search available flights, compare options, and recommend policy-compliant itineraries. Cannot issue tickets or override travel policies. Approval owner: Government employee.
+
+Booking Agent – Can prepare booking details and reserve eligible itineraries. Cannot issue, cancel, or refund tickets without approval. Approval owner: Authorized booking officer.
+
+Policy Validation Agent – Can verify compliance with government travel policies and highlight violations. Cannot approve policy exceptions. Approval owner: Business owner.
+
+Financial Validation Agent – Can validate financial eligibility, payment status, and claim information. Cannot approve payments or financial claims. Approval owner: Financial officer.
+
+Customer Support Agent – Can answer travel inquiries, explain policies, and provide booking status. Cannot make financial decisions or modify official records. Approval owner: Customer support supervisor.
+
 
 ## Shadow AI Audit
 

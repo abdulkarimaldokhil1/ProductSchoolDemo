@@ -50,6 +50,19 @@ Financial Validation Agent – Can validate financial eligibility, payment statu
 Customer Support Agent – Can answer travel inquiries, explain policies, and provide booking status. Cannot make financial decisions or modify official records. Approval owner: Customer support supervisor.
 
 
+## Shadow AI Audit
+| Tool | Owner | Risk Level | Decision |
+|---|---|---|---|
+| External AI tools used to compare flight options before booking | ERCAB Product Team | M | Govern |
+| ChatGPT used to explain government travel policies | ERCAB Product Team | H | Govern |
+| Word or Excel used to prepare travel request drafts before submission | ERCAB Product Team | M | Keep |
+
+**Total tools found:** 3  
+**Tools after triage:** 3  
+**Estimated hidden spend:** $0/month
+
+
+
 
 Shadow AI Audit (user-side), Module 5
 
@@ -90,14 +103,5 @@ Recommended next step: Workflow gaps dominate, your users are stitching your pro
 
 Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
 
-## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**

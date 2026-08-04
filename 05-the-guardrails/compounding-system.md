@@ -51,11 +51,16 @@ Customer Support Agent – Can answer travel inquiries, explain policies, and pr
 
 
 ## Shadow AI Audit
+
 | Tool | Owner | Risk Level | Decision |
 |---|---|---|---|
 | External AI tools used to compare flight options before booking | ERCAB Product Team | M | Govern |
 | ChatGPT used to explain government travel policies | ERCAB Product Team | H | Govern |
 | Word or Excel used to prepare travel request drafts before submission | ERCAB Product Team | M | Keep |
+
+**Total tools found:** 3  
+**Tools after triage:** 3  
+**Estimated hidden spend:** $0/month
 
 **Total tools found:** 3  
 **Tools after triage:** 3  
@@ -102,6 +107,4 @@ Dominant signal: Workflow gap.
 Recommended next step: Workflow gaps dominate, your users are stitching your product into multi-step pipelines. Strongest near-term move is partner integrations with the AI tools they already chain in.
 
 Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
-
-
 

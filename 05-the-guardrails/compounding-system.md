@@ -22,7 +22,6 @@
 **Where it silos:** Carrier performance insights, traveler behavior, and support feedback are not yet consolidated into a shared AI knowledge layer. Learning remains distributed across teams instead of continuously improving the entire platform.
 
 
-## Governance Policy
 
 ## Governance Policy
 
@@ -49,6 +48,7 @@ Policy Validation Agent – Can verify compliance with government travel policie
 Financial Validation Agent – Can validate financial eligibility, payment status, and claim information. Cannot approve payments or financial claims. Approval owner: Financial officer.
 
 Customer Support Agent – Can answer travel inquiries, explain policies, and provide booking status. Cannot make financial decisions or modify official records. Approval owner: Customer support supervisor.
+
 
 
 ## Shadow AI Audit

@@ -51,6 +51,45 @@ Customer Support Agent – Can answer travel inquiries, explain policies, and pr
 
 
 
+Shadow AI Audit (user-side), Module 5
+
+## Discover, User-Side Workarounds
+- Users manually compare flight options using external AI tools before booking. | source: Support ticket | signal: Capability gap | freq: M | spend: $$0/mo | decision: Build
+- Users ask ChatGPT to explain government travel policies instead of using the platform. | source: Support ticket | signal: Workflow gap | freq: M | spend: $$0/mo | decision: Build
+- Users manually prepare travel request drafts in Word or Excel before submitting them. | source: Support ticket | signal: Workflow gap | freq: M | spend: $$0/mo | decision: Build
+
+## Pattern Assessment
+- Workarounds found: 3
+- Build candidates: 3
+- Partner candidates: 0
+- Ignore decisions: 0
+- Adjacent spend: $0/mo
+- Dominant signal: Workflow gap
+
+## Action Plan
+### Build
+1. Flight comparison: Build an AI-powered comparison experience that evaluates available flights based on price, schedule, travel policy, and traveler preferences.
+2. Policy assistant: Add an in-platform AI assistant that explains government travel policies, provides cited guidance, and escalates exceptions to authorized employees.
+3. Travel request drafting: Enable users to generate a structured travel request draft from natural-language input, with human review before submission.
+
+Suggested sequence: Start with travel request drafting, followed by the policy assistant, then launch intelligent flight comparison after validating data quality and recommendation accuracy.
+
+### Partner
+No external partnership is currently required. Core capabilities should be embedded within ERCAB, while approved model providers and carrier APIs may be used as enabling technology under existing security and governance controls.
+
+### Ignore + Monitor
+No workaround is currently classified as ignore. Continue monitoring support tickets, user interviews, AI tool usage, and workflow analytics to identify low-frequency workarounds that may not justify native development.
+
+## Roadmap Brief
+Based on your audit: 3 user-side workarounds discovered.
+Decisions: 3 build · 0 partner · 0 ignore · 0 TBD.
+Estimated adjacent spend: $0/mo across surveyed users.
+Dominant signal: Workflow gap.
+
+Recommended next step: Workflow gaps dominate, your users are stitching your product into multi-step pipelines. Strongest near-term move is partner integrations with the AI tools they already chain in.
+
+Sequence the Build column by frequency × strategic relevance. Confirm Partner candidates with the external tools' partnership teams. Re-run this audit each quarter, workarounds shift fast.
+
 ## Shadow AI Audit
 
 | Tool | Owner | Risk Level | Decision |

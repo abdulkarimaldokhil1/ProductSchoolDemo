@@ -173,9 +173,25 @@ Approve $1.2M for six months and a dedicated team of three engineers, one produc
 
 - **Key Strategic Change:**
 
-Opening line (literally say this first): We are asking to fund a controlled decision-support system that reduces flight-selection time without transferring approval or financial authority to AI.
-If you only get 60 seconds: ERCAB can turn government travel policy and booking data into faster, more compliant flight selection. The current weakness is that reliability thresholds, evaluation coverage, and unit economics are not yet strong enough for scaled deployment. We are asking for $1.2M and five dedicated roles over six months to close those gaps and convert two pilots, with explicit stop criteria if the evidence does not hold.
-The one question they'll ask first: “What evidence do you have that this will be reliable enough for government travel?”
-Answer: We do not have sufficient evidence yet; this funding is gated around building and passing the evaluation, policy-validation, human-escalation, drift, and cost controls required before any scaled deployment.
+### Presenter Coaching Notes
+
+#### Opening line — literally say this first
+
+> We are asking to fund a controlled decision-support system that reduces flight-selection time without transferring approval or financial authority to AI.
+
+#### If you only get 60 seconds
+
+ERCAB can turn government travel policy and booking data into faster, more compliant flight selection.
+
+The current weakness is that reliability thresholds, evaluation coverage, and unit economics are not yet strong enough for scaled deployment.
+
+We are asking for **$1.2M** and **five dedicated roles over six months** to close those gaps and convert two pilots, with explicit stop criteria if the evidence does not hold.
+
+#### The one question they will ask first
+
+> **What evidence do you have that this will be reliable enough for government travel?**
+
+**Answer:** We do not have sufficient evidence yet. This funding is gated around building and passing the evaluation, policy-validation, human-escalation, drift, and cost controls required before any scaled deployment.
+
 
 → Details: [`06-the-pitch/`](06-the-pitch/)

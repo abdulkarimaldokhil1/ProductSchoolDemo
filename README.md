@@ -149,7 +149,27 @@
 | 14 | Identify unusual booking patterns, repeated failures, duplicate requests, and potential policy violations | Guardrails | Event data must be standardized, false-positive tolerance agreed, and investigation ownership defined. | M |
 
 
-- **Board Narrative:** **The case:**
+- **Board Narrative:**
+**Thesis (1 sentence):**
+ERCAB will help government travel users select compliant flights faster and with fewer manual comparisons, while keeping approvals, exceptions, and financial actions under explicit human control.
+
+**The case:**
+
+1. Why now: Government travel already generates proprietary booking, policy, carrier, payment, correction, and support data, but that data is not currently converted into continuously improving recommendations. The immediate opportunity is not autonomous travel management; it is reducing the time and effort required to identify compliant flight options across an increasingly complex carrier ecosystem. Two enterprise pilots provide a six-month window to prove that this improves real booking decisions before broader rollout.
+2. What's defensible: The moat is the ERCAB-specific decision context: government travel policies, approval rules, traveler eligibility, carrier performance, historical selections, booking corrections, and post-booking outcomes. However, the current moat is incomplete because the Corrections, Preferences, and Network Intelligence loops are weak or missing. Microsoft Copilot could reproduce a generic travel assistant quickly; it cannot easily reproduce a continuously updated government-travel decision layer embedded in ERCAB workflows. Defensibility therefore depends on operationalizing these feedback loops, not on the interface or the underlying model.
+3. The economics: The strategy does not yet contain a credible AI unit-economics model. The proposed model cascade and routing ratio are design assumptions, not an approved cost plan, and the stated pricing, gross margin, AI COGS per transaction, and break-even volume are still blank. Funding should therefore be released against a measured cost envelope: cost per recommendation, percentage of requests escalated to a higher-cost model, human-review cost, and performance under peak booking volumes. We should not approve scaled deployment until inference and review costs are demonstrated against the existing ERCAB operating model.
+
+**The risks:**
+
+1. Trust / failure modes: The reliability contract is not yet board-ready. A five-row golden dataset is insufficient, no measurable accuracy or policy-compliance target has been defined, and adversarial coverage is unspecified. The highest-severity failure is a recommendation that appears compliant but violates government travel policy, eligibility, approval, or fare rules and is then acted upon without detection. The system must prevent this through deterministic policy validation, tiered confidence, mandatory human review for low-confidence or exception cases, and a materially expanded evaluation suite covering policy conflicts, incomplete data, unavailable inventory, duplicate bookings, carrier inconsistencies, and misleading explanations. Until those thresholds are defined and passed, the system remains advisory only.
+2. Scale / governance: At 10x usage, the likely failure points are inference cost, latency, model drift, inconsistent carrier data, unreviewed model changes, and feedback loops that reinforce poor recommendations. Autonomy boundaries are appropriately conservative: the system may draft and recommend, but it may not approve requests, submit on behalf of users, cancel tickets, issue refunds, or change policy and financial rules. What is still missing is an enforceable operating model for drift detection, model-version approval, rollback, audit retention, incident ownership, and periodic revalidation against PDPL, NCA ECC, DGA requirements, and government travel policy.
+3. Competitive: The kill scenario is not that Microsoft or another vendor launches a travel copilot; that is expected. The kill scenario is that a general-purpose copilot integrated with enterprise productivity tools delivers equivalent user value without ERCAB needing to build and operate a specialized intelligence layer. We should stop or narrow the bet if the pilots do not show materially faster flight selection, reliable policy compliance, repeat usage, and evidence that ERCAB-specific data improves recommendation quality over a generic assistant.
+
+**The ask:**
+Approve $1.2M for six months and a dedicated team of three engineers, one product manager, and one legal or government-travel policy SME. The funding buys a production-grade evaluation and control layer, deterministic policy validation, expanded golden and adversarial datasets, confidence-based human escalation, cost and latency instrumentation, feedback-loop capture, and conversion of two enterprise pilots in Q3. It does not fund autonomous approvals, cancellations, refunds, or a broad platform-wide AI rollout. If funded, lower-priority conversational features and nonessential AI expansion should be paused until reliability, economics, and pilot conversion gates are met.
+
+**The case:**
+
 - **Ask:** ## M1 Baseline vs. Now
 - **Key Strategic Change:**
 

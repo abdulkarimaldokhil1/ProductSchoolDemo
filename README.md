@@ -152,6 +152,7 @@
 - **Board Narrative:**
 
 **Thesis (1 sentence):**
+
 ERCAB will help government travel users select compliant flights faster and with fewer manual comparisons, while keeping approvals, exceptions, and financial actions under explicit human control.
 
 **The case:**

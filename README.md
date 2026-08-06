@@ -172,26 +172,7 @@ Approve $1.2M for six months and a dedicated team of three engineers, one produc
 
 
 - **Key Strategic Change:**
-
-### Presenter Coaching Notes
-
-#### Opening line — literally say this first
-
-> We are asking to fund a controlled decision-support system that reduces flight-selection time without transferring approval or financial authority to AI.
-
-#### If you only get 60 seconds
-
-ERCAB can turn government travel policy and booking data into faster, more compliant flight selection.
-
-The current weakness is that reliability thresholds, evaluation coverage, and unit economics are not yet strong enough for scaled deployment.
-
-We are asking for **$1.2M** and **five dedicated roles over six months** to close those gaps and convert two pilots, with explicit stop criteria if the evidence does not hold.
-
-#### The one question they will ask first
-
-> **What evidence do you have that this will be reliable enough for government travel?**
-
-**Answer:** We do not have sufficient evidence yet. This funding is gated around building and passing the evaluation, policy-validation, human-escalation, drift, and cost controls required before any scaled deployment.
+We are building an AI-powered government travel assistant that helps government employees and travel coordinators identify the best compliant travel option faster, with less manual effort and better spending efficiency. Our advantage comes from ERCAB’s proprietary travel policies, booking data, user corrections, and carrier performance insights, which will continuously improve the quality of recommendations. We will scale the bet only if it measurably reduces flight-selection time, maintains policy compliance, and earns sustained user trust and adoption.
 
 
 → Details: [`06-the-pitch/`](06-the-pitch/)

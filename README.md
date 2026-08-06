@@ -100,6 +100,8 @@
 **How you get this funded, shipped, and adopted.**
 
 - **Horizon 1 (Now):**
+
+
 | # | Initiative | Strategy Component | Why It Ships Now | Confidence |
 |---|---|---|---|---|
 | 4 | Explain why each flight option is recommended, compliant, or excluded | Contract | Explanation is essential for trust and can be implemented using rule citations and structured recommendation reasons. | H |
@@ -121,6 +123,7 @@
 
 
 - **Horizon 2 (Next):**
+
 | # | Initiative | Strategy Component | Hypothesis | Kill Criteria | Confidence |
 |---|---|---|---|---|---|
 | 1 | Build an AI travel request assistant that drafts government travel requests from beneficiary inputs | Bet | A drafting copilot will reduce request-completion time without reducing data quality. | If we do not see at least a 30% reduction in median request-creation time by week 6, we stop or redesign the workflow. | M |
@@ -135,7 +138,6 @@
 | 21 | Create monitoring dashboards for recommendation quality, policy violations, latency, cost, and user satisfaction | Margin | Unified monitoring will reveal whether quality gains justify AI cost and complexity. | If the dashboard cannot attribute quality, latency, and cost to individual AI use cases by week 6, we stop scaling usage. | H |
 | 28 | Pilot the AI travel assistant with selected government entities and compare results against the current process | Bet | A controlled pilot will demonstrate whether the copilot creates measurable operational value. | If the pilot does not improve at least two of accuracy, adoption, processing time, or trust by week 6, we stop broader rollout. | M |
 | 30 | Integrate the AI assistant into Etimad Individuals web and mobile channels | Bet | Embedding the assistant in existing channels will achieve stronger adoption than a separate AI interface. | If embedded usage remains below 20% of eligible pilot journeys by week 6, we stop mobile expansion and reassess placement. | M |
-
 
 
 - **Horizon 3 (Bet):**
